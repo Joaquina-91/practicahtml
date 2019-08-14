@@ -1,0 +1,113 @@
+img{
+    max-width: 100%;
+ }
+ body{
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+ }
+ a {
+    letter-spacing: .5px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color .1s ease-in-out;
+ }
+ .menu{
+    justify-content: space-between;
+    }
+ /* .container{
+ max-width: 1220px;
+ margin: 0 auto;
+ } */
+
+ #name {
+    font-size: 20px;
+ }
+
+ #main-header .container{
+    height: 130px;
+    align-items: center;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+ }
+ .main-navigation{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 22px;
+    margin-left: 50px;
+ }
+ .main-navigation ul{
+    font-size: 13px;
+   line-height: 21px;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #000;
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+ }
+ .main-navigation li{
+    display: inline-block;
+    margin-left: 28px;
+    padding-bottom: 22px;
+    position: relative;
+    color: #000;
+ }
+#seccion-uno {
+text-align: center;
+height: 550px;
+background: url("/img/fondosuicidio.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: 0% 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}   
+h1 {
+   font-size: 40px;
+   margin: 50px; 
+}
+.sub-section {
+   text-align: center;
+   margin: 20px;
+}
+#descripcion {
+   height: 130px;
+   align-items: center;
+   display: flex;
+   margin-right: 100px;
+   margin-left: 100px;
+   justify-content: center;
+   align-items: center;
+   font-style: italic; 
+}
+h2 {
+   font-size: 35px;
+   margin: 50px;
+   height: 130px;
+   align-items: center;
+   display: flex;
+   margin-right: 100px;
+   margin-left: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.proyecto123 {
+   width: 918px;
+   height: 665px;
+   border: 1px solid #c3c3c3;
+   margin-right: 100px;
+   margin-left: 100px;
+
+
+}
