@@ -3,7 +3,7 @@ img {
 }
 body{
    font-size: 16px;
-   color: #000;
+   color: #442b30;
    font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -63,7 +63,7 @@ margin: 0 auto;
 #seccion-uno {
 /* text-align: center; */
 height: 550px;
-background-image: url("/img/fondosuicidio.png");
+background-image: url(../img/fondosuicidio.png);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: 0% 0%;
@@ -180,7 +180,7 @@ h2 {
 }
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #ca2f1a;
+  color: #f9d577;
   font-size: 5rem;
   font-weight: 700;
 }
