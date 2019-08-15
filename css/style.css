@@ -62,7 +62,7 @@
     color: #000;
  }
 #seccion-uno {
-text-align: center;
+/* text-align: center; */
 height: 550px;
 background: url("/img/fondosuicidio.png");
 background-repeat: no-repeat;
@@ -88,7 +88,7 @@ h1 {
    margin-right: 100px;
    margin-left: 100px;
    justify-content: center;
-   align-items: center;
+   text-align: center;
    font-style: italic; 
 }
 h2 {
@@ -102,46 +102,6 @@ h2 {
    justify-content: center;
    align-items: center;
 }
-/* #proyectos {
-   display: flex;
-   flex-direction: column;
-   align-items: center; */
-   
-/* } */
-/* #proyecto123 {
-   border: 1px solid #c3c3c3;
-   margin-right: 100px;
-   margin-left: 100px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   flex-flow: wrap;
-}
-#proyecto1 {
-   width: 520px;
-   height: 403px;
-   border: 1px solid #c3c3c3;
-   margin: 20px;
-}
-#proyecto2 {
-   width: 520px;
-   height: 403px;
-   border: 1px solid #c3c3c3;
-   margin: 20px;
-}
-#proyecto3 {
-   width: 520px;
-   height: 403px;
-   border: 1px solid #c3c3c3;
-   margin: 20px;
-}
-#proyecto4 {
-   width: 520px;
-   height: 403px;
-   border: 1px solid #c3c3c3;
-   margin: 20px;
-}
- */
  #cards {
    margin-top: 32px;
    max-width: 100%;
@@ -151,6 +111,7 @@ h2 {
    grid-gap: 15px;
    justify-content: center;
  }
+
  @media screen and (min-width: 768px) and (max-width: 959px) {
    #cards {
       grid-template-columns: repeat(2, 1fr);
@@ -197,7 +158,7 @@ h2 {
  .card__wrapper .card__overlay-info .card__image {
    width: 180%;
    position: absolute;
-   bottom: -15px;
+   top:0;
    left: 0;
    margin-top: 0;
    opacity: .3;
@@ -262,11 +223,6 @@ h2 {
 #image-inside4 {
    background-image: url(https://www.v1.aristidebenoist.com/static/media/img/im0.jpg) 
 }
-
-
- .card__image img {
-   /* max-width: 100%; */
- }
  .card__date {
    bottom: 24px;
    position: absolute;
@@ -290,4 +246,3 @@ h2 {
    top: -2px;
    background-color: #ca2f1a;
  }
- 
