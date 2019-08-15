@@ -26,9 +26,10 @@ margin: 0 auto;
 }
 
 #main-header .container{
-   height: 130px;
+   height: 180px;
    align-items: center;
    display: flex;
+   justify-content: space-between;
    margin-right: 100px;
    margin-left: 100px;
 }
@@ -158,7 +159,7 @@ h2 {
   overflow: hidden;
 }
 .card__wrapper .card__overlay-info .card__image {
-  width: 180%;
+  width: 100%;
   position: absolute;
   top:0;
   left: 0;
@@ -180,18 +181,19 @@ h2 {
 }
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #f9d577;
+  color: #442b30;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: lighter;
 }
 .card__number--secondary {
-  color: #afafaf;
+  color: #442b30;
   margin: 0;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .card__title, .card__subtitle {
   margin: 0;
 }
+
 .card__title {
   font-weight: 400;
   font-size: 18px;
@@ -214,16 +216,16 @@ h2 {
 }
 
 #image-inside1 {
-   background-image: url(https://www.v1.aristidebenoist.com/static/media/img/im0.jpg) 
+   background-image: url(/img/proyecto\ fial.svg) 
 }
 #image-inside2 {
-  background-image: url(https://www.v1.aristidebenoist.com/static/media/img/im0.jpg) 
+  background-image: url(/img/brave.svg) 
 }
 #image-inside3 {
-  background-image: url(https://www.v1.aristidebenoist.com/static/media/img/im0.jpg) 
+  background-image: url(/img/newsclub.svg) 
 }
 #image-inside4 {
-  background-image: url(https://www.v1.aristidebenoist.com/static/media/img/im0.jpg) 
+  background-image: url(/img/netflix.svg) 
 }
 .card__date {
   bottom: 24px;
@@ -233,9 +235,10 @@ h2 {
   font-size: 10px;
 }
 .card__description {
-  font-size: 12px;
-  font-weight: 100;
+  font-weight: lighter;
   z-index: 1;
+  line-height: 1.5;
+  font-size: 4 rems;
 }
 
 .upper-decorator {
@@ -250,22 +253,19 @@ h2 {
   background-color: #ca2f1a;
 }
 #aboutme {
-  height: 130px;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin: 100px;
+  margin: 100px 0;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
 }
 h2 #abouttitulo {
-  width: 10%;
+  width: 50%;
   align-items: flex-start;
 
 }
 #abouttext {
   text-align: justify;
-  width: 90%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -293,26 +293,10 @@ footer {
    margin-right: 50px;
   margin-top:50px;
 }
-.email logo{
+.email.logo {
    height: 50px;
    padding: 50px;
 }
-
-/* .rrss p{
-   color: white;
-   margin-bottom: 20px;
-   letter-spacing: 4px;
-}
-.rrss-icon img{
-   height: 44px;
-   padding: 10px;
-}
-.rrss-icon {
-   display: flex;
-   align-content: flex-end;
-   justify-content: center;
-}
- */
 
 
 
