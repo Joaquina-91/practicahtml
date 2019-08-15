@@ -64,7 +64,7 @@
 #seccion-uno {
 /* text-align: center; */
 height: 550px;
-background: url("/img/fondosuicidio.png");
+background: url("img/fondosuicidio.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: 0% 0%;
@@ -246,3 +246,25 @@ h2 {
    top: -2px;
    background-color: #ca2f1a;
  }
+#aboutme {
+   height: 130px;
+   margin-right: 100px;
+   margin-left: 100px;
+   margin: 100px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+#abouttitulo {
+   width: 10%;
+   align-items: flex-start;
+
+}
+#abouttext {
+   text-align: justify;
+   width: 90%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
