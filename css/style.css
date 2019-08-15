@@ -63,7 +63,7 @@ margin: 0 auto;
 #seccion-uno {
 /* text-align: center; */
 height: 550px;
-background: url("../img/fondosuicidio.png");
+background-image: url("/img/fondosuicidio.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: 0% 0%;
@@ -272,14 +272,32 @@ h2 #abouttitulo {
   line-height: 1.5;
 }
 footer {
-   background-color: #58626d;
+   background-color: #afafaf;
    color: white;
-   height: 154px;
+   height: 130px;
    display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-around; 
 }
+.infocontacto {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-around; 
+}
+.email {
+   color: white;
+   margin-bottom: 20px;
+   letter-spacing: 2px;
+   margin-right: 50px;
+  margin-top:50px;
+}
+.email logo{
+   height: 50px;
+   padding: 50px;
+}
+
 /* .rrss p{
    color: white;
    margin-bottom: 20px;
@@ -299,6 +317,5 @@ footer {
 
 
 
-Enviar mensaje a Cris Saldaña
 
 
