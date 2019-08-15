@@ -3,12 +3,12 @@ img {
 }
 body{
    font-size: 16px;
-   color: #442b30;
+   color: #140d0e;
    font-family: 'Open Sans', sans-serif;
 }
 a {
    letter-spacing: .5px;
-   color: #000;
+   color: #140d0e;
    font-size: 16px;
    text-decoration: none;
    transition: color .1s ease-in-out;
@@ -45,7 +45,7 @@ margin: 0 auto;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #000;
+  color: #140d0e;
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -59,7 +59,7 @@ margin: 0 auto;
    margin-left: 28px;
    padding-bottom: 22px;
    position: relative;
-   color: #000;
+   color: #140d0e;
 }
 #seccion-uno {
 /* text-align: center; */
@@ -181,12 +181,12 @@ h2 {
 }
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #442b30;
+  color: #140d0e;
   font-size: 5rem;
   font-weight: lighter;
 }
 .card__number--secondary {
-  color: #442b30;
+   color: #140d0e;
   margin: 0;
   font-size: 4rem;
 }
@@ -253,9 +253,9 @@ h2 {
   background-color: #ca2f1a;
 }
 #aboutme {
-  margin: 100px 0;
+  margin: 100px 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 h2 #abouttitulo {
@@ -272,22 +272,19 @@ h2 #abouttitulo {
   line-height: 1.5;
 }
 footer {
-   background-color: #afafaf;
-   color: white;
-   height: 130px;
+   background-color: #eeefea;
    display: flex;
    flex-direction: row;
    align-items: flex-start;
-   justify-content: space-around; 
+   justify-content: space-between; 
 }
 .infocontacto {
    display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   justify-content: space-around; 
+ margin-right: 100px;
+ margin-left: 100px;
 }
 .email {
-   color: white;
+   color: #140d0e;
    margin-bottom: 20px;
    letter-spacing: 2px;
    margin-right: 50px;
@@ -295,7 +292,9 @@ footer {
 }
 .email.logo {
    height: 50px;
-   padding: 50px;
+}
+.email.logo i {
+   color: #140d0e;
 }
 
 
