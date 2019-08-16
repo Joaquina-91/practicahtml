@@ -9,7 +9,7 @@ body{
 a {
    letter-spacing: .5px;
    color: #140d0e;
-   font-size: 16px;
+   font-size: 1.4vw;
    text-decoration: none;
    transition: color .1s ease-in-out;
 }
@@ -22,9 +22,11 @@ margin: 0 auto;
 } */
 
 #name {
-   font-size: 20px;
+   font-size: 1.7vw;
 }
-
+h4{
+  font-size: 1.5vw;
+}
 #main-header .container{
    height: 180px;
    align-items: center;
@@ -40,7 +42,7 @@ margin: 0 auto;
    margin-left: 50px;
 }
 .main-navigation ul{
-   font-size: 13px;
+   font-size: 1vw;
   line-height: 21px;
   margin: 0;
   padding: 0;
@@ -74,7 +76,7 @@ align-items: center;
 
 }   
 h1 {
-  font-size: 40px;
+  font-size: 3.5vw;
   margin: 50px; 
 }
 .sub-section {
@@ -92,7 +94,7 @@ h1 {
   font-style: italic; 
 }
 h2 {
-  font-size: 35px;
+  font-size: 2.5vw;
   align-items: center;
   display: flex;
   margin-right: 100px;
@@ -102,6 +104,7 @@ h2 {
 #hproyecto {
   margin-left: 100px;
   height: 170px;
+  margin-top: 100px;
 }
 #cards {
   margin-top: 32px;
@@ -182,13 +185,13 @@ h2 {
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #140d0e;
-  font-size: 5rem;
+  font-size: 4.5vw;
   font-weight: lighter;
 }
 .card__number--secondary {
    color: #140d0e;
   margin: 0;
-  font-size: 4rem;
+  font-size: 4.5vw;
 }
 .card__title, .card__subtitle {
   margin: 0;
@@ -196,11 +199,11 @@ h2 {
 
 .card__title {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.7vw;
 }
 .card__subtitle {
   font-weight: 100;
-  font-size: 12px;
+  font-size: 1.1vw;
 }
 .card__image {
   margin-top: 48px;
@@ -232,13 +235,13 @@ h2 {
   position: absolute;
   align-items: center;
   margin-top: 48px;
-  font-size: 10px;
+  font-size: 1vw;
 }
 .card__description {
   font-weight: lighter;
   z-index: 1;
   line-height: 1.5;
-  font-size: 4 rems;
+  font-size: 1.2vw;
 }
 
 .upper-decorator {
@@ -253,10 +256,13 @@ h2 {
   background-color: #ca2f1a;
 }
 #aboutme {
-  margin: 100px 100px;
+  padding: 220px 100px 220px 100px;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  background-image: url(/img/ABOUT\ ME.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%; 
+  background-size: 100% 100% ;
 }
 h2 #abouttitulo {
   width: 50%;
@@ -272,7 +278,7 @@ h2 #abouttitulo {
   line-height: 1.5;
 }
 footer {
-   background-color: #eeefea;
+   background-color: #e4f1ea;
    display: flex;
    flex-direction: row;
    align-items: flex-start;
@@ -286,7 +292,7 @@ footer {
 .email {
    color: #140d0e;
    margin-bottom: 20px;
-   letter-spacing: 2px;
+   letter-spacing: 1.3px;
    margin-right: 50px;
   margin-top:50px;
 }
@@ -298,7 +304,41 @@ footer {
 }
 
 
+@media (max-width: 575.98px) { ... }
 
+@media (max-width: 767.98px) {
+  #name{
+    font-size:15px; 
+    margin: 0;
+  }
+  #abouttext {
+    font-size: 14px;
+  }
+ }
 
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+/* @media (max-width: 575.98px) { }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #name{
+    font-size:15px; 
+    margin: 0;
+  }
+  h4{
+    line-height: 2px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }
+
+ */
 
 
