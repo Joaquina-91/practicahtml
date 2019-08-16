@@ -219,16 +219,16 @@ h2 {
 }
 
 #image-inside1 {
-   background-image: url(/img/proyecto\ fial.svg) 
+   background-image: url(../img/proyecto\ fial.svg);
 }
 #image-inside2 {
-  background-image: url(/img/brave.svg) 
+  background-image: url(../img/brave.svg); 
 }
 #image-inside3 {
-  background-image: url(/img/newsclub.svg) 
+  background-image: url(../img/newsclub.svg); 
 }
 #image-inside4 {
-  background-image: url(/img/netflix.svg) 
+  background-image: url(../img/netflix.svg); 
 }
 .card__date {
   bottom: 24px;
@@ -259,7 +259,7 @@ h2 {
   padding: 220px 100px 220px 100px;
   display: flex;
   justify-content: space-between;
-  background-image: url(/img/ABOUT\ ME.svg);
+  background-image: url(../img/ABOUT\ ME.svg);
   background-repeat: no-repeat;
   background-position: 0 100%; 
   background-size: 100% 100% ;
