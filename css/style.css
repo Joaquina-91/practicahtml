@@ -111,7 +111,7 @@ h2 {
   max-width: 100%;
   margin: 0 100px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
   justify-content: center;
 }
@@ -229,6 +229,9 @@ h2 {
 }
 #image-inside4 {
   background-image: url(../img/netflix.svg); 
+}
+#image-inside5 {
+  background-image: url(../img/mi\ portfolio\ fuera.png); 
 }
 .card__date {
   bottom: 24px;
