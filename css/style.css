@@ -219,7 +219,7 @@ h2 {
 }
 
 #image-inside1 {
-   background-image: url(../img/proyecto\ fial.svg);
+   background-image: url(../img/Al\ grano\ primera.png);
 }
 #image-inside2 {
   background-image: url(../img/brave.svg); 
@@ -302,43 +302,3 @@ footer {
 .email.logo i {
    color: #140d0e;
 }
-
-
-@media (max-width: 575.98px) { ... }
-
-@media (max-width: 767.98px) {
-  #name{
-    font-size:15px; 
-    margin: 0;
-  }
-  #abouttext {
-    font-size: 14px;
-  }
- }
-
-@media (max-width: 991.98px) { ... }
-
-@media (max-width: 1199.98px) { ... }
-
-/* @media (max-width: 575.98px) { }
-
-@media (min-width: 576px) and (max-width: 767.98px) {
- }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
-  #name{
-    font-size:15px; 
-    margin: 0;
-  }
-  h4{
-    line-height: 2px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) { }
-
-@media (min-width: 1200px) { }
-
- */
-
-
