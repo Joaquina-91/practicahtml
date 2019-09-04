@@ -261,7 +261,7 @@ h2 {
 #aboutme {
   padding: 220px 100px 220px 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-image: url(../img/ABOUT\ ME.svg);
   background-repeat: no-repeat;
   background-position: 0 100%; 
@@ -288,8 +288,7 @@ footer {
    justify-content: space-between; 
 }
 .infocontacto {
-   display: flex;
- margin-right: 100px;
+  display: flex;
  margin-left: 100px;
 }
 .email {
@@ -304,4 +303,5 @@ footer {
 }
 .email.logo i {
    color: #140d0e;
+   font-size: 30px;
 }

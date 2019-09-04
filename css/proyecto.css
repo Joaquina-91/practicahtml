@@ -1,0 +1,47 @@
+.margenes_completos {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.case_study {
+    font-weight: 600;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top:50px;
+}
+.cuerpo_proyecto {
+    justify-content: left;
+    margin: 50px 100px 50px 100px;
+    line-height: 1.5;
+}
+.quotes {
+ font-style: italic;
+ margin-bottom: 40px;
+ margin-top: 20px;
+ margin-left: 0;
+ padding-left: 1em;
+ border-left: 5px solid #520802;
+}
+.bold {
+    font-weight: bold;
+}
+.subtitulos {
+    font-weight: 600;
+    font-size: 25px;
+    justify-content: left;
+    margin-left: 100px;
+}
+.imagen_hifi {
+    margin-top: 50px;
+}
+.sub_subtitulos {
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: 50px
+}
+.empatizar_puntos {
+    list-style-type: disc;
+    margin-left: 30px;
+}
