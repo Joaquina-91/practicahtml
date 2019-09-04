@@ -45,3 +45,13 @@
     list-style-type: disc;
     margin-left: 30px;
 }
+.link_portfolio {
+    font-size: 16px;
+    color: #140d0e;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+.link_portfolio:hover {
+    color: #520802;
+    font-size: 18px;
+}
