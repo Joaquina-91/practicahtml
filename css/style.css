@@ -9,7 +9,7 @@ body{
 a {
    letter-spacing: .5px;
    color: #140d0e;
-   font-size: 1.4vw;
+   font-size: 21px;
    text-decoration: none;
    transition: color .1s ease-in-out;
 }
@@ -22,10 +22,10 @@ margin: 0 auto;
 } */
 
 #name {
-   font-size: 1.7vw;
+   font-size: 24px;
 }
 h4{
-  font-size: 1.5vw;
+  font-size: 24px;
 }
 #main-header .container{
    height: 180px;
@@ -80,7 +80,7 @@ align-items: center;
 
 }   
 h1 {
-  font-size: 3.5vw;
+  font-size: 45px;
   margin: 50px; 
 }
 .sub-section {
@@ -308,4 +308,9 @@ footer {
 .email.logo i {
    color: #140d0e;
    font-size: 30px;
+}
+@media screen and (max-width: 375px) {
+  body{
+    font-size: 14px;
+
 }
