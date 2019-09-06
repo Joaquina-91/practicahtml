@@ -42,7 +42,7 @@ h4{
    margin-left: 50px;
 }
 .main-navigation ul{
-   font-size: 1vw;
+   font-size: 21px;
   line-height: 21px;
   margin: 0;
   padding: 0;
@@ -98,7 +98,7 @@ h1 {
   font-style: italic; 
 }
 h2 {
-  font-size: 2.5vw;
+  font-size: 35px;
   align-items: center;
   display: flex;
   margin-right: 100px;
@@ -189,13 +189,13 @@ h2 {
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #140d0e;
-  font-size: 4.5vw;
+  font-size: 55px;
   font-weight: lighter;
 }
 .card__number--secondary {
    color: #140d0e;
   margin: 0;
-  font-size: 4.5vw;
+  font-size: 55px;
 }
 .card__title, .card__subtitle {
   margin: 0;
@@ -203,11 +203,11 @@ h2 {
 
 .card__title {
   font-weight: 400;
-  font-size: 1.7vw;
+  font-size: 40px;
 }
 .card__subtitle {
   font-weight: 100;
-  font-size: 1.1vw;
+  font-size: 21px;
 }
 .card__image {
   margin-top: 48px;
@@ -242,13 +242,13 @@ h2 {
   position: absolute;
   align-items: center;
   margin-top: 48px;
-  font-size: 1vw;
+  font-size: 18px;
 }
 .card__description {
   font-weight: lighter;
   z-index: 1;
   line-height: 1.5;
-  font-size: 1.2vw;
+  font-size: 21px;
 }
 
 .upper-decorator {
@@ -274,6 +274,7 @@ h2 {
 h2 #abouttitulo {
   width: 50%;
   align-items: flex-start;
+  font-size: 35px;
 
 }
 #abouttext {
@@ -283,6 +284,7 @@ h2 #abouttitulo {
   justify-content: flex-end;
   align-items: center;
   line-height: 1.5;
+  font-size: 21px;
 }
 footer {
    background-color: #e4f1ea;
@@ -311,6 +313,4 @@ footer {
 }
 @media screen and (max-width: 375px) {
   body{
-    font-size: 14px;
-
-}
+    font-size: 14px;}}
