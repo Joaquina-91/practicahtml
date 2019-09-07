@@ -16,14 +16,7 @@ a {
 .menu{
    justify-content: space-between;
    }
-/* .container{
-max-width: 1220px;
-margin: 0 auto;
-} */
 
-#name {
-   font-size: 24px;
-}
 h4{
   font-size: 24px;
 }
@@ -189,13 +182,13 @@ h2 {
 .card__number {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #140d0e;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: lighter;
 }
 .card__number--secondary {
    color: #140d0e;
   margin: 0;
-  font-size: 55px;
+  font-size: 50px;
 }
 .card__title, .card__subtitle {
   margin: 0;
@@ -203,7 +196,7 @@ h2 {
 
 .card__title {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
 }
 .card__subtitle {
   font-weight: 100;
@@ -238,7 +231,7 @@ h2 {
   background-image: url(../img/mi\ portfolio\ fuera.png); 
 }
 .card__date {
-  bottom: 24px;
+  bottom: 21px;
   position: absolute;
   align-items: center;
   margin-top: 48px;
@@ -248,7 +241,7 @@ h2 {
   font-weight: lighter;
   z-index: 1;
   line-height: 1.5;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .upper-decorator {
@@ -269,7 +262,7 @@ h2 {
   background-image: url(../img/ABOUT\ ME.svg);
   background-repeat: no-repeat;
   background-position: 0 100%; 
-  background-size: 100% 100% ;
+  background-size: contain ;
   margin: 100px 0;
 }
 h2 #abouttitulo {
