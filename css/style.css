@@ -257,7 +257,9 @@ h2 {
 }
 #aboutme {
   padding: 30px 16px 16px 16px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   justify-content: space-around;
   background-image: url(../img/ABOUT\ ME.svg);
   background-repeat: no-repeat;
@@ -273,10 +275,9 @@ h2 #abouttitulo {
 }
 #abouttext {
   text-align: justify;
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
+  display: grid;
+grid-template-columns: 85% 15%;
   line-height: 1.5;
   font-size: 21px;
 }
@@ -301,24 +302,150 @@ font-size: 30px;
 }
 
 
+
+@media screen and (min-width: 375px) and (max-width: 959px) {
+  #main-header .container{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+ }
+ h1 {
+  font-size: 32px;
+  margin: 20px; 
+  line-height:1.5;
+}
+h4{
+  font-size: 21px;
+  line-height:1.5;
+
+}
+#hproyecto {
+  margin-top: 50px;
+  height: 50px;
+  font-size: 26px;
+}
+#cards {
+  margin: 20px;
+  padding: 16px 16px 16px 16px;
+}
+
+.card__number {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.card__title {
+  font-size: 26px;
+}
+.card__subtitle {
+  font-size: 18px;
+}
+.card__image {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.image-inside {
+  height: 100px;
+}
+
+.card__date {
+  bottom: 16px;
+  font-size: 16px;
+}
+.card__description {
+  font-weight: lighter;
+  z-index: 1;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.upper-decorator:before {
+  content: '';
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  top: -2px;
+  background-color: #ca2f1a;
+}
+#aboutme {
+  padding: 16px 16px 16px 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  justify-content: space-around;
+  background-image: url(../img/ABOUT\ ME.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%; 
+  background-size: contain ;
+  margin: 16px;
+}
+#abouttitulo {
+  font-size: 26px;
+  margin: 30px;
+}
+#abouttext {
+  text-align: justify;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  line-height: 1.5;
+  font-size: 18px;
+
+}
+.footer-wrapper {
+  background-color: #E8F4F5;
+  padding: 16px;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email {
+  font-size: 18px;
+}
+
+.ul-wrapper{
+  display:flex;
+}
+
+.ul-wrapper > li{
+  margin-right: 16px;
+}
+.ul-wrapper i{
+font-size: 24px;
+}
+}
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  
+}
+
 @media screen and (max-width: 375px) {
   body{
     font-size: 14px;}
     a {
-      font-size: 18px;}
+      font-size: 14px;}
       #name {
         font-size: 16px;
      }
      h4{
-       font-size: 18px;
+       font-size: 16px;
+       line-height:1.5;
      }
      #main-header .container{
       margin-right: 16px;
       margin-left: 16px;
+        height: 50px;
+
+     
    }
     h1 {
-      font-size: 30px;
+      font-size: 24px;
       margin: 20px; 
+      line-height:1.5;
     }
     #descripcion {
       margin-right: 16px;
@@ -331,53 +458,37 @@ font-size: 30px;
 
 }
 #hproyecto {
-  margin-left: 16px;
-
-  margin-top: 16px;
+  margin: 16px;
+  margin-top: 50px;
+  height: 50px
 }
 #cards {
-  margin-top: 15px;}
-  
+  margin: 16px;
+  padding: 16px 16px 16px 16px;
+}
 
 .card__number {
   font-size: 35px;
   font-weight: lighter;
 }
-.card__number--secondary {
-   color: #140d0e;
-  margin: 0;
-  font-size: 35px;
-}
-.card__title, .card__subtitle {
-  margin: 0;
-}
 
 .card__title {
-  font-weight: 400;
   font-size: 24px;
 }
 .card__subtitle {
-  font-weight: 100;
-  font-size: 18px;
+  font-size: 16px;
 }
 .card__image {
   margin-top: 6px;
   margin-bottom: 6px;
-  width: 100%;
 }
 
 .image-inside {
-  height: 150px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;  
+  height: 100px;
 }
 
 .card__date {
-  bottom: 24px;
-  position: absolute;
-  align-items: center;
-  margin-top: 16px;
+  bottom: 16px;
   font-size: 14px;
 }
 .card__description {
@@ -387,63 +498,60 @@ font-size: 30px;
   font-size: 14px;
 }
 
-.upper-decorator {
-  position: relative;
-}
 .upper-decorator:before {
   content: '';
-  width: 32px;
-  height: 4px;
+  width: 20px;
+  height: 3px;
   position: absolute;
   top: -2px;
   background-color: #ca2f1a;
 }
 #aboutme {
-
-  display: flex;
+  padding: 16px 16px 16px 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
   justify-content: space-around;
   background-image: url(../img/ABOUT\ ME.svg);
   background-repeat: no-repeat;
   background-position: 0 100%; 
-  background-size: 100% 100% ;
+  background-size: contain ;
+  margin: 16px;
 }
 h2 #abouttitulo {
-  width: 50%;
-  align-items: flex-start;
   font-size: 24px;
 
 }
 #abouttext {
   text-align: justify;
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
   line-height: 1.5;
-  font-size: 16px;
-}
-footer {
-   background-color: #e4f1ea;
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   justify-content: space-between; 
-}
-.infocontacto {
-  display: flex;
+  font-size: 14px;
 
 }
+.footer-wrapper {
+  background-color: #E8F4F5;
+  padding: 16px;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .email {
-   color: #140d0e;
-   margin-bottom: 25px;
-   letter-spacing: 1.3px;
-   margin-right: 25px;
-  margin-top:25px;
+  font-size: 16px;
 }
-.email.logo {
-   height: 50px;
+
+.ul-wrapper{
+  display:flex;
 }
-.email.logo i {
-   color: #140d0e;
-   font-size: 25px;
-}}
+
+.ul-wrapper > li{
+  margin-right: 10px;
+}
+.ul-wrapper i{
+font-size: 18px;
+}
+}
