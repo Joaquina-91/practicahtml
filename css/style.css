@@ -277,10 +277,14 @@ h2 #abouttitulo {
   text-align: justify;
   width: 100%;
   display: grid;
-grid-template-columns: 85% 15%;
+  grid-template-columns: 85%;
   line-height: 1.5;
   font-size: 21px;
 }
+.ver_mas:hover{
+  text-decoration: underline;
+}
+
 .footer-wrapper {
   background-color: #E8F4F5;
   padding: 0 100px;
@@ -529,7 +533,6 @@ h2 #abouttitulo {
   grid-template-columns: 100%;
   line-height: 1.5;
   font-size: 14px;
-
 }
 .footer-wrapper {
   background-color: #E8F4F5;
